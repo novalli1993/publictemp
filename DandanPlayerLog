@@ -1,0 +1,63 @@
+2023-07-18 22:05:24,370| INFO | 1 | Application started.|  
+2023-07-18 22:05:24,370| INFO | 1 | Assembly Version: 14.0.2.718|  
+2023-07-18 22:05:24,370| INFO | 1 | Computer information: OS=Microsoft Windows NT 10.0.25905.0; ProcessorCount=12; Is64bitProcess=True; Is64bitOS=True|  
+2023-07-18 22:05:24,370| INFO | 1 | Current Directory: D:\Program Files\弹弹Play|  
+2023-07-18 22:05:24,371| INFO | 1 | Arguments: D:\Program Files\弹弹Play\dandanplay.exe|  
+2023-07-18 22:05:24,457| INFO | 1 | Rendering Tier: 2|  
+2023-07-18 22:05:24,458| ERROR| 1 | Error: 对类型“Kaedei.Acplay.Client.MainWindow”的构造函数执行符合指定的绑定约束的调用时引发了异常。. Logged From method App_DispatcherUnhandledException in file D:\Code\Kaedei\DandanClient\DandanClient-x64\AcplayWPFClient\App.xaml.cs at line 163| System.Windows.Markup.XamlParseException: 对类型“Kaedei.Acplay.Client.MainWindow”的构造函数执行符合指定的绑定约束的调用时引发了异常。 ---> System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.TypeInitializationException: “Kaedei.Acplay.ClientLibrary.Service.ServiceFactory”的类型初始值设定项引发异常。 ---> System.Exception: This assembly is protected by an unregistered version of Eziriz's ".NET Reactor"! This assembly won't further work.
+   在 a1MlDJIbtnO2HDMRLE7.BbAtT2Ix9LrWTifQqx4.QumRGikIyPxOd()
+   在 Kaedei.Acplay.ClientLibrary.Service.ServiceFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Kaedei.Acplay.ClientLibrary.Service.ServiceFactory.get_UserService()
+   在 vVBn8R0aiY4PvYuk4Vi.dBE6NiIBa(vVBn8R0aiY4PvYuk4Vi )
+   在 B2K3UoW1xjVBpOH6NKy.viWy0qWv2aJNOCeusIP..ctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Kaedei.Injection.InjectionContext.GetObject(Type type, Boolean createObject)
+   在 Kaedei.Injection.IInjectableExtensions.<>c__DisplayClass0_0.<Inject>b__1(PropertyInfo m)
+   在 System.Collections.Generic.List`1.ForEach(Action`1 action)
+   在 Kaedei.Acplay.Client.MainWindowViewModel..ctor()
+   在 Kaedei.Acplay.Client.MainWindow..ctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Windows.Markup.XamlReader.RewrapException(Exception e, IXamlLineInfo lineInfo, Uri baseUri)
+   在 System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   在 System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   在 System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   在 System.Windows.Application.LoadBamlStreamWithSyncInfo(Stream stream, ParserContext pc)
+   在 System.Windows.Application.DoStartup()
+   在 System.Windows.Application.<.ctor>b__1_0(Object unused)
+   在 System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   在 System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+ 
+2023-07-18 22:05:24,467| ERROR| 1 | Error: 调用的目标发生了异常。. Logged From method Error in file D:\Code\Kaedei\DandanClient\DandanClient-x64\AcplayWPFClient\Log\Logger.cs at line 41| System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.TypeInitializationException: “Kaedei.Acplay.ClientLibrary.Service.ServiceFactory”的类型初始值设定项引发异常。 ---> System.Exception: This assembly is protected by an unregistered version of Eziriz's ".NET Reactor"! This assembly won't further work.
+   在 a1MlDJIbtnO2HDMRLE7.BbAtT2Ix9LrWTifQqx4.QumRGikIyPxOd()
+   在 Kaedei.Acplay.ClientLibrary.Service.ServiceFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Kaedei.Acplay.ClientLibrary.Service.ServiceFactory.get_UserService()
+   在 vVBn8R0aiY4PvYuk4Vi.dBE6NiIBa(vVBn8R0aiY4PvYuk4Vi )
+   在 B2K3UoW1xjVBpOH6NKy.viWy0qWv2aJNOCeusIP..ctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Kaedei.Injection.InjectionContext.GetObject(Type type, Boolean createObject)
+   在 Kaedei.Injection.IInjectableExtensions.<>c__DisplayClass0_0.<Inject>b__1(PropertyInfo m)
+   在 System.Collections.Generic.List`1.ForEach(Action`1 action)
+   在 Kaedei.Acplay.Client.MainWindowViewModel..ctor()
+   在 Kaedei.Acplay.Client.MainWindow..ctor()
+ 
+2023-07-18 22:05:24,467| ERROR| 1 | Error: “Kaedei.Acplay.ClientLibrary.Service.ServiceFactory”的类型初始值设定项引发异常。. Logged From method Error in file D:\Code\Kaedei\DandanClient\DandanClient-x64\AcplayWPFClient\Log\Logger.cs at line 41| System.TypeInitializationException: “Kaedei.Acplay.ClientLibrary.Service.ServiceFactory”的类型初始值设定项引发异常。 ---> System.Exception: This assembly is protected by an unregistered version of Eziriz's ".NET Reactor"! This assembly won't further work.
+   在 a1MlDJIbtnO2HDMRLE7.BbAtT2Ix9LrWTifQqx4.QumRGikIyPxOd()
+   在 Kaedei.Acplay.ClientLibrary.Service.ServiceFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Kaedei.Acplay.ClientLibrary.Service.ServiceFactory.get_UserService()
+   在 vVBn8R0aiY4PvYuk4Vi.dBE6NiIBa(vVBn8R0aiY4PvYuk4Vi )
+   在 B2K3UoW1xjVBpOH6NKy.viWy0qWv2aJNOCeusIP..ctor()
+ 
+2023-07-18 22:05:24,467| ERROR| 1 | Error: This assembly is protected by an unregistered version of Eziriz's ".NET Reactor"! This assembly won't further work.. Logged From method Error in file D:\Code\Kaedei\DandanClient\DandanClient-x64\AcplayWPFClient\Log\Logger.cs at line 41| System.Exception: This assembly is protected by an unregistered version of Eziriz's ".NET Reactor"! This assembly won't further work.
+   在 a1MlDJIbtnO2HDMRLE7.BbAtT2Ix9LrWTifQqx4.QumRGikIyPxOd()
+   在 Kaedei.Acplay.ClientLibrary.Service.ServiceFactory..cctor()
